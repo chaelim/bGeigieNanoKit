@@ -1,7 +1,8 @@
 /*
    The bGeigie-nano
    A device for car-borne radiation measurement (aka Radiation War-driving).
-
+   
+   Copyright (c) 2013, Lionel Bergeret, Rob Oudendijk
    Copyright (c) 2012, Lionel Bergeret
    Copyright (c) 2011, Robin Scheibler aka FakuFaku, Christopher Wang aka Akiba
    All rights reserved.
