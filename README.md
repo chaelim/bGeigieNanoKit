@@ -1,13 +1,18 @@
 # Welcome to bGeigie Nano Kit project  
-(this file in in process of updating)
+[Main bGeigie Nano page](http://blog.safecast.org/bgeigie-nano/)  
+Assembly and Operations Manual can be found on the [Wiki](https://github.com/Safecast/bGeigieNanoKit/wiki)  
+  
+The Safecast bGeigie Nano is a mobile, GPS enabled, logging, radiation sensor. It is designed for mounting on the outside of a car window but can be used on bicycles, trains, planes, and other modes of transportation.  
+  
+It can also be used for taking static readings and contamination findings. In logging mode, the Nano takes a measurement every 5 seconds and logs the time and location coordinates.  
 
-This is a lighter version of the bGeigie Mini which is meant to fit in a Pelican Micro Case 1010.
+
 
 # Acknowledgements
 This work would not exist without the original development by [bidouilles] (https://github.com/bidouilles/bGeigieNano) and contributions of other [safecast] (https://github.com/Safecast/bGeigieNano) developers.
 
 # Requirements
-* bGeigieNanoKit can be bought online from [Mecom](http://www.nanoxpress.com/)
+* bGeigieNanoKit can be bought online from [KitHub](https://shop.kithub.cc/products/safecast-bgeigie-nano)
 * for programing/updating software you need a FTDI cable drivers are at http://www.ftdichip.com/Drivers/VCP.htm
 * solder iron
 * time to make the kit (3-4 hours is normal)
@@ -109,10 +114,12 @@ To make sure all of the NMEA sentences can be received correctly, we will need t
     #define _SS_MAX_RX_BUFF 128 // RX buffer size for TinyGPS
 
 # Licenses
+ Licenses for this repository can be found at [here][10]
+ 
  * [InterruptHandler and bGeigieMini code][5] - Copyright (c) 2011, Robin Scheibler aka FakuFaku
  * [TinyGPS][6] - Copyright (C) 2008-2012 Mikal Hart
- * bGeigieNano - Copyright (c) 2012, Lionel Bergeret
  * [Makefile][8] - Copyright (c) 2012, Tim Marston
+ 
 
 
   [1]: https://github.com/sparkfun/OpenLog "OpenLog"
@@ -124,3 +131,4 @@ To make sure all of the NMEA sentences can be received correctly, we will need t
   [7]: https://www.adafruit.com/products/746 "Ultimate GPS"
   [8]: http://ed.am/dev/make/arduino-mk "Arduino Makefile"
   [9]: http://www.pelican.com/cases_detail.php?Case=1010 "Pelican 1010"
+  [10]: https://blog.safecast.org/faq/licenses/
